@@ -51,11 +51,11 @@ This is a console-based hospital management system implemented in Java. The syst
 
 ```sql
 INSERT INTO doctors (name, specialization) VALUES
-('Dr. Alice Smith', 'Cardiologist'),
-('Dr. Bob Johnson', 'Dermatologist'),
-('Dr. Carol Brown', 'Neurologist'),
-('Dr. Daniel White', 'Pediatrician'),
-('Dr. Emily Davis', 'Orthopedic Surgeon');
+('Alice Smith', 'Cardiologist'),
+('Bob Johnson', 'Dermatologist'),
+('Carol Brown', 'Neurologist'),
+('Daniel White', 'Pediatrician'),
+('Emily Davis', 'Orthopedic Surgeon');
 ```
 
 ## Compilation
@@ -80,7 +80,7 @@ Enter your choice:
 
 ## Example of Adding a Patient
 
-Select the option (`1. Add Patient`).
+Select the option `1. Add Patient`.
 Enter the patient's details when prompted:
 
 ```bash
@@ -96,7 +96,7 @@ Patient Added Successfully!!
 
 ## Example of Viewing Patients
 
-Select the option (`2 View Patients`).
+Select the option `2. View Patients`.
 The system will display a list of all patients along with their age and gender in a tabular format:
 
 ```bash
@@ -110,7 +110,7 @@ Patients:
 
 ## Example of Viewing Doctors
 
-Select the option (`3 View Doctors`).
+Select the option `3. View Doctors`.
 The system will display a list of all doctors along with their specializations in a tabular format:
 
 ```bash
@@ -131,7 +131,7 @@ Doctors:
 ```
 
 ## Example of Booking an Appointment
-Select the option (`4 Book Appointment`).
+Select the option `4. Book Appointment`.
 Enter the patient ID, doctor ID, and appointment date when prompted:
 
 ```bash
@@ -154,7 +154,7 @@ Doctor not available on this date!!
 
 ##  File Storage
 
-The program uses MySQL as the database backend. Ensure that the database (hospital) is created and accessible before running the program. Update the database credentials in the (`HospitalManagementSystem.java`) file:
+The program uses MySQL as the database backend. Ensure that the database (`hospital`) is created and accessible before running the program. Update the database credentials in the (`HospitalManagementSystem.java`) file:
 
 ```bash
 private static final String url = "jdbc connection string";
